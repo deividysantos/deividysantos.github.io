@@ -1,9 +1,8 @@
 header{
-    background-color: #ccc;
+    background-color: #141414;
 }
 
 header .content{
-    max-width: 1000px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -12,9 +11,9 @@ header .content{
 }
 
 header .content .home{
-    font-size: 1.3rem;
-    color: black;
-    font-weight: 600;
+    font-size: 1.7rem;
+    color: #ffffff;
+    font-weight: 700;
 }
 
 header .content .link-list{
@@ -28,13 +27,16 @@ header .content .link-item{
 }
 
 header .content .link-item a{
-    color: black;
+    color: #ffffff;
     font-size: 1rem;
     font-weight: 400;
+    transition: 0.3s;
+    border-bottom: 1px solid transparent;
 }
 
 header .content .link-item a:hover{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #ffffff;
+    
 }
 
 @media (max-width: 500px) {
