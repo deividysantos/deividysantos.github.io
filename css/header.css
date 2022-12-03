@@ -1,0 +1,52 @@
+header{
+    background-color: #ccc;
+}
+
+header .content{
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 1rem 0.5rem;
+}
+
+header .content .home{
+    font-size: 1.3rem;
+    color: black;
+    font-weight: 600;
+}
+
+header .content .link-list{
+    display: flex;
+    justify-content: space-around;
+}
+
+header .content .link-item{
+    display: block;
+    margin: 0 1rem;
+}
+
+header .content .link-item a{
+    color: black;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+header .content .link-item a:hover{
+    border-bottom: 1px solid black;
+}
+
+@media (max-width: 500px) {
+    header .content .home{
+        display: none;
+    }
+
+    header .content nav{
+        width: 100vw;
+    }
+
+    header .content .link-item a{
+        font-size: 1.3rem;
+    }
+}
